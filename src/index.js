@@ -13,10 +13,6 @@ const  Bar = {
 
 const  routes = [
   {
-    path: '/',
-    component: App
-  },
-  {
     path:'/foo',
     component:Foo
   },
@@ -32,4 +28,4 @@ const  router = new VueRouter({
 
 new Vue({
   router
-}).mounted('#app');
+}).$mount('#app');
