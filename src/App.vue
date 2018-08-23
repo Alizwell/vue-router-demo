@@ -11,6 +11,7 @@
       <router-link to="/user/foo"  replace>/user/foo</router-link>
       <router-link to="/user/foo/profile">/user/foo/profile</router-link>
       <router-link to="/user/foo/posts">/user/foo/posts</router-link>
+      <router-link to="/settings">嵌套路由</router-link>
       <button  @click="goBack">goback</button>
 
     </p>
@@ -20,7 +21,7 @@
   </div>
 </template>
 
-<script>
+<script>  
   export default {
     methods:{
       goBack () {
@@ -29,3 +30,10 @@
     }
   }
 </script>
+
+
+<style  lang="css">
+
+  @import './style/style.css'
+
+</style>
